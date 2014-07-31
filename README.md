@@ -19,7 +19,7 @@ Input:
 
 Output:
 
-		      Packet          A                            R                           B 
+		Packet          A                            R                           B 
 			P1          0.000 ms                  1900.010 ms                  3484.348 ms
 			P2       1900.000 ms                  3800.010 ms                  5384.348 ms
 			P3       3800.000 ms                  5700.010 ms                  7284.348 ms
@@ -31,6 +31,7 @@ Output:
 ####DESCRIPTION OF HOW THE PROGRAM WORKS:
 -------------------------------------
 * In this program we are calculating and displaying three things:
+
         * Time at which packet leaves host A
 	* Time at which packet reaches router R
 	* Time at which packet reaches host B
@@ -41,6 +42,7 @@ Output:
 ####CHALLENGES FACED AND HOW DID I ADDRESSED IT:
 --------------------------------------------
 * Displaying N packets if N is too large
+
         * If N is too large, it gets difficult displaying output so what i did was used string formatting. So i can get predefined columns to display my output.
 * Calculating queuing delay
 	* It took lots of time to calculate queuing delay. Since i didn't find any question with solution to verify my output, what i did was, I wrote the whole program for 2 routers i.e 3 links and verified the program using the questions and answers from t2 paper. After lots of changes, i changed the code for 1 router. 
