@@ -31,7 +31,7 @@ Output:
 ####DESCRIPTION OF HOW THE PROGRAM WORKS:
 -------------------------------------
 * In this program we are calculating and displaying three things:
-        * Time at which packet leaves host A
+	* Time at which packet leaves host A
 	* Time at which packet reaches router R
 	* Time at which packet reaches host B
 * Time at host A for packets is initially taken as 0 for packet 1, and then it is incremented by transmission delay of link1 for each packet. 
@@ -42,7 +42,7 @@ Output:
 ####CHALLENGES FACED AND HOW DID I ADDRESSED IT:
 --------------------------------------------
 * Displaying N packets if N is too large
-        * If N is too large, it gets difficult displaying output so what i did was used string formatting. So i can get predefined columns to display my output.
+	* If N is too large, it gets difficult displaying output so what i did was used string formatting. So i can get predefined columns to display my output.
 * Calculating queuing delay
 	* It took lots of time to calculate queuing delay. Since i didn't find any question with solution to verify my output, what i did was, I wrote the whole program for 2 routers i.e 3 links and verified the program using the questions and answers from t2 paper. After lots of changes, i changed the code for 1 router. 
 * Handling all exceptions
